@@ -35,8 +35,6 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 Future<void> main() async {
-
-  /// firebase initialization
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(

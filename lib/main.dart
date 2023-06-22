@@ -38,6 +38,7 @@ Future<void> main() async {
 
   /// firebase initialization
   WidgetsFlutterBinding.ensureInitialized();
+  /// initialize firebase object
   await Firebase.initializeApp();
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: kColorBlack, // status bar color
